@@ -1,0 +1,129 @@
+body{
+  background-color: #D2B48C;
+  margin: 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*rodapé*/
+footer{
+  background-color: chocolate;
+  color: #6b3619;
+
+}
+header{
+  margin: o;
+ border-bottom: 1px solid #6b3619;
+}
+
+nav{
+ display: flex;
+ justify-content: space-around;
+
+ 
+}
+nav a{
+  color: brown;
+  text-decoration: none;
+   margin-top: 20px;
+    margin-bottom: 20px;
+  font-size: 18px;
+
+}
+header h1{
+margin-bottom: 20px;
+color: chocolate;
+
+}
+
+
+
+
+section{
+    background-color: #e18726;
+    padding: 10px;
+    width: 30%;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+
+}
+
+
+
+/*PRODUTOS*/
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px;
+  padding: 50px;
+ 
+}
+
+div.gallery-item {
+  margin: 5px;
+  border: 1px solid #cc7422;
+  width: 150px;
+  color: #6b3619;
+
+}
+
+div.gallery-item:hover {
+  border: 1px solid #c87618;
+}
+
+div.gallery-item img {
+  width: 100%;  
+ height: auto;
+}
+
+div.gallery-item div.desc {
+  padding: 15px;
+  text-align: center;
+  
+}
+/*SOBRE*/
+.lEMA_SOBRE{
+  color: #c65c23;
+  font-size: 17px;
+}
+.p_doLEMA{
+  margin-top: 10px;
+  color: #6b3619;
+}
+.H2_DO_sobre{
+  color: #6a3315;
+}
+.p_H2_sobre{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(178, 98, 41);
+  font-size: 17px;
+}
+.H3_LEMA{
+  color: #c65c23;
+  font-size: 20px;
+   margin-bottom: 10px;
+}
+.p_do_H3_Sobre{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(145, 79, 31);
+  font-size: 17px;
+}
+.div_H2_sobre{
+  color: #6b3619;
+}
+.div_sobre{
+  color: #6b3619;
+  font-size: 17px;
+}
+.h4_sobre{
+  color: #6a3315;
+  font-size: 17px;
+}
+
+
+
+
+
+
+  
